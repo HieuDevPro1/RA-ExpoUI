@@ -1,0 +1,1 @@
+export const baseUrl = 'https://ra-nodejs.onrender.com/';

@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ResUs",
+    "slug": "HieuNT",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/correct.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/small.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hieu.nt.HieuNT"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-secure-store"],
+    "extra": {
+      "eas": {
+        "projectId": "9b3b3e14-cb7b-450f-ad63-586874bb50c5"
+      }
+    }
+  }
+}
